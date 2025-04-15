@@ -1,0 +1,41 @@
+.input-for-city{
+    margin-left: 50px;
+    height: 40px;
+    width: 600px;
+    border-radius:10px ;
+    background-color:  rgba(2, 1, 1, 0.4);
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.button-for-search-city{
+    color: white;
+    background-color:  rgba(2, 1, 1, 0.4);
+    height: inherit;
+    margin-left: 10px;
+    border-radius:10px ;
+    outline: none;
+}
+@media only screen and (max-width: 768px){
+    .input-for-city{
+        margin-left: 20px;
+        width: 200px;
+        height: inherit;
+    }
+    .button-for-search-city{
+        width: 80px;
+        height: inherit;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+    .input-for-city{
+        margin-left: 20px;
+        width: 400px;
+        height: inherit;
+    }
+    .button-for-search-city{
+        width: 80px;
+        height: inherit;
+    }
+}
